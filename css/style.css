@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('../fonts/trebuchetms.ttf');
+h1 {
+    font: 400 72px 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+h2 {
+    font: 400 36px 'Trebuchet MS', sans-serif;
+}
+h4 {
+    font: 400 24px 'Trebuchet MS', sans-serif;
+}
+p {
+    font: 400 16px 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+body {
+    background: #eedbce;
+}
+.line-white {
+    height: 8px;
+    background: #fff;
+    width: 80px;
+}
+.line-grey {
+    height: 8px;
+    background: grey;
+    width: 80px;
+}
+/* 1-st Section (Intro) */
+.intro {
+    width: 100%;
+    height: 794px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('../img/main.jpeg') center / cover no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro__title {
+    text-align: center;
+}
+/* 2-nd Section (Cafe History) */
+.history {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin: 0 381px;
+    margin-top: -213px;
+}
+/* 
+    Mission
+*/
+.mission__history__slogan {
+    padding: 20px;
+    color: #fff;
+}
+.mission__history {
+    display: flex;
+    flex-direction: column;
+}
+.slogan__title {
+    margin-bottom: 20px;
+}
+.mission__history__photo {
+    height: 100%;
+    background: url('../img/bread.jpeg') center / cover no-repeat;
+}
+/* 
+    Bread Guide
+*/
+.guide {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex: 1;
+}
+.guide__history {
+    background: #f7f0e6;
+    padding: 20px 20px 26px 20px;
+}
+.guide__history__title {
+    margin-bottom: 15px;
+}
+.guide__history__description {
+    margin-top: 20px;
+}
+/* 3-rd Section (Cafe Dignity) */
+.dignity {
+    display: flex;
+    margin: 0 381px;
+}
+.guide__photo {
+    background: url('../img/powder_hands.jpeg') center / cover no-repeat;
+}
+/* 
+    Dignity Photo
+*/
+.dignity__photo {
+    width: 100%;
+    background: url('../img/bread_2.jpeg') center / cover no-repeat;
+}
+/* 
+    Dignity Slogan
+*/
+.dignity__sammy {
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/bread_3.jpeg') center / cover no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.dignity__sammy_title {
+    margin-bottom: 30px;
+}
+.dignity__sourced {
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dignity__sourced_title {
+    margin-bottom: 30px;
+}
+.dignity__slogan {
+    display: grid;
+    grid-template-rows: repeat(2, 280px);
+    grid-template-columns: repeat(2, 285px);
+}
+.dignity__slogan_pie {
+    background: url('../img/pie.jpeg') center / cover no-repeat;
+}
+.dignity__slogan_pie_2 {
+    background: url('../img/pie_2.jpeg') center / cover no-repeat;
+}
+/* 4-th Section (Cafe Stock) */
+.stock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 381px;
+    text-align: center;
+    padding-top: 55px;
+    margin-bottom: 55px;
+}
+.stock__slogan {
+    padding: 0 305px;
+}
+.stock__assort {
+    display: flex;
+    margin: 10px auto 20px 93px;
+}
+.assort__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 0 20px;
+}
+.assort__item__photo {
+    padding: 37px 47px 0;
+}
+.assort__item_img {
+    width: 100%;
+}
+.assort__item_title {
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+.assort__item_description {
+    margin-top: 28px;
+}
+/* 5-th Section (Cafe Menu) */
+.menu {
+    display: flex;
+    gap: 20px;
+    margin: 0 381px;
+    margin-bottom: 38px;
+}
+.menu__assort {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex: 1;
+}
+.menu__assort_img {
+    min-height: 309px;
+}
+.menu__assort__slogan {
+    padding: 0 20px;
+}
+.menu__assort__slogan_title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.menu__assort__slogan_description {
+    margin-top: 17px;
+}
+/* 
+    Menu Breakfast
+*/
+.menu__assort_breakfast {
+    background: url('../img/breakfast.jpeg') center / cover no-repeat;
+}
+/* 
+    Menu Lunch & Dinner
+*/
+.menu__assort_lunch {
+    background: url('../img/lunch.jpeg') center / cover no-repeat;
+}
+/* 6-th Section (Cafe Menu-Time) */
+.menu-time {
+    display: flex;
+    margin: 0 381px;
+    margin-bottom: 63px;
+}
+/* 
+    Menu-Time Left IMG
+*/
+.menu-time_photo {
+    width: 100%;
+    background: url('../img/pie_3.jpeg') center / cover no-repeat;
+}
+/* 
+    Menu-Time Right Block
+*/
+.menu-time__inform {
+    display: flex;
+    flex-direction: column;
+}
+/* 
+    Right Block Top
+*/
+.inform__menu__hours {
+    background: #fdf3ec;
+    padding: 28px 20px;
+}
+.menu__hours_title {
+    margin-bottom: 13px;
+}
+.menu__hours_subtitle {
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+/* 
+    Right Block Bottom
+*/
+.inform_2__slogan {
+    background: #000;
+    color: #fff;
+    padding: 15px 20px;
+}
+.inform_2__slogan_title {
+    margin-bottom: 20px;
+}
+.inform_2__photo_2 {
+    width: 285px;
+    background: url('../img/pie&coffee.jpeg') center / cover no-repeat;
+}
+.menu-time__inform_2 {
+    display: flex;
+}
+.menu-time__inform_2_left {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+}
+/* 7-th Section (Cafe Footer) */
+.footer {
+    background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../img/powder_hands_2.jpeg') center / cover no-repeat;
+    color: #fff;
+    background-position: 50% 95%;
+    padding: 228px 381px 52px;
+}
+.footer__wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+}
+.footer__title {
+    margin-bottom: 30px;
+}
+.footer__address {
+    margin-top: 30px;
+}
